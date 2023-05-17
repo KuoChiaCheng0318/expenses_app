@@ -28,6 +28,17 @@ namespace Expenses.Core
 
         }
 
+        public Expense EditExpense(Expense expense)
+        {
+            var dbExpense = _context.Expenses.First(e =>  e.Id == expense.Id);
+            dbExpense.Description = expense.Description;
+            dbExpense.Amount = expense.Amount;
+            _context.SaveChanges();
+
+            return dbExpense;
+
+        }
+
         public Expense GetExpense(int id)
         {
             return _context.Expenses.First(e => e.Id == id);

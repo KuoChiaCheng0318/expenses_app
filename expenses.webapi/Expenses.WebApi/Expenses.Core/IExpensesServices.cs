@@ -10,6 +10,8 @@ namespace Expenses.Core
         Expense GetExpense(int id);
         Expense CreateExpense(DB.Expense expense);
         void DeleteExpense(Expense expense);
+        Expense EditExpense(Expense expense);
+
 
 
 
