@@ -1,5 +1,6 @@
 import {
-    setExpenses, newExpense, editExpense, deleteExpense,
+    setExpenses, newExpense, editExpense, deleteExpense, 
+    setExpensesError, editExpenseError, newExpenseError, deleteExpenseError
 } from '../app/expensesSlice';
 
 import axios from 'axios';
@@ -16,6 +17,7 @@ export const GetExpenses = async (dispatch) => {
         dispatch(setExpenses(data));
     } catch (error) {
         console.log("Error:", error);
+        dispatch(setExpensesError());
     }
 }
 
@@ -26,6 +28,7 @@ export const NewExpense = async (dispatch, expense) => {
         dispatch(newExpense(data));
     } catch (error) {
         console.log("Error:", error);
+        dispatch(newExpenseError());
     }
 }
 
@@ -36,6 +39,7 @@ export const EditExpense = async (dispatch, expense) => {
         dispatch(editExpense(expense));
     } catch (error){
         console.log("Error:", error);
+        dispatch(editExpenseError());
     }
 }
 
@@ -46,6 +50,7 @@ export const DeleteExpense = async (dispatch, expense) => {
         dispatch(deleteExpense(expense));
     } catch (error) {
         console.log("Error:", error);
+        dispatch(deleteExpenseError());
     }
 }
 
