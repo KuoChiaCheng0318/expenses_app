@@ -31,6 +31,10 @@ namespace Expenses.WebApi
 
             services.AddDbContext<AppDbContext>();
             services.AddTransient<IExpensesServices, ExpensesServices>();
+            services.AddSwaggerDocument(settings =>
+            {
+                settings.Title = "Expenses";
+            });
 
         }
 
@@ -47,6 +51,8 @@ namespace Expenses.WebApi
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseEndpoints(endpoints =>
             {

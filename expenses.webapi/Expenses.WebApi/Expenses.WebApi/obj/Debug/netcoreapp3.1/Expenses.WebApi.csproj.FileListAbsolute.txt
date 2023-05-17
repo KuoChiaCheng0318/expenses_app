@@ -67,3 +67,15 @@ D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.W
 D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\obj\Debug\netcoreapp3.1\Expenses.WebApi.csproj.CopyComplete
 D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\Expenses.Core.dll
 D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\Expenses.Core.pdb
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\Namotion.Reflection.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\NJsonSchema.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\NSwag.Annotations.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\NSwag.AspNetCore.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\NSwag.Core.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\NSwag.Generation.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\Expenses.WebApi\obj\Debug\netcoreapp3.1\Expenses.WebApi.MvcApplicationPartsAssemblyInfo.cs
