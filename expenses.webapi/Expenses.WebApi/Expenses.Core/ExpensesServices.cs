@@ -21,6 +21,13 @@ namespace Expenses.Core
 
         }
 
+        public void DeleteExpense(Expense expense)
+        {
+            _context.Expenses.Remove(expense);
+            _context.SaveChanges();
+
+        }
+
         public Expense GetExpense(int id)
         {
             return _context.Expenses.First(e => e.Id == id);

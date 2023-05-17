@@ -9,6 +9,8 @@ namespace Expenses.Core
         List<Expense> GetExpenses();
         Expense GetExpense(int id);
         Expense CreateExpense(DB.Expense expense);
+        void DeleteExpense(Expense expense);
+
 
 
 

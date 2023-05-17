@@ -32,6 +32,14 @@ namespace Expenses.WebApi.Controllers
             return CreatedAtRoute("GetExpense", new { newExpense.Id }, newExpense);
         }
 
+        [HttpDelete]
+        public IActionResult DeleteExpense(Expense expense)
+        {
+            _expensesServices.DeleteExpense(expense);
+            return Ok();
+        }
+
+
 
 
 
