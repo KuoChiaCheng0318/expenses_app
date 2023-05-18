@@ -39,9 +39,9 @@ namespace Expenses.WebApi
 
             services.AddTransient<IUserService, UserService>();
 
-            services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
-
             services.AddTransient<IPasswordHasher, PasswordHasher>();
+
+            services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddSwaggerDocument(settings =>
             {
