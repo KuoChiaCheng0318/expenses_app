@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6KK10N7JBhimXfqQ7MGk/bG5eGZIe8yRpKQ832ZYc9+SwANVunGT7wlHYEpwDooYrIa+kqv0TA+kBcdcB9FrQQ==",
+  "dgSpecHash": "gSWJMVNgGqv8Kv+Ba/O3X8O0ej6hbmvUUpUxzN7aoSG4OWzU6E96fh1F4xh2qrUaSrhUXP/dFT+3j7ZETN4qsw==",
   "success": true,
   "projectFilePath": "D:\\Dpath\\ProgramCharles\\20230515Expenses\\expenses_app\\expenses.webapi\\Expenses.WebApi\\Expenses.WebApi\\Expenses.WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dges9\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
     "C:\\Users\\dges9\\.nuget\\packages\\microsoft.aspnetcore.authorization\\1.0.3\\microsoft.aspnetcore.authorization.1.0.3.nupkg.sha512",
     "C:\\Users\\dges9\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\1.0.4\\microsoft.aspnetcore.hosting.abstractions.1.0.4.nupkg.sha512",
     "C:\\Users\\dges9\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\1.0.4\\microsoft.aspnetcore.hosting.server.abstractions.1.0.4.nupkg.sha512",
@@ -155,5 +156,16 @@
     "C:\\Users\\dges9\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\dges9\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
