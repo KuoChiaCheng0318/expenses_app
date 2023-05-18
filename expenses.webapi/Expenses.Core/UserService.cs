@@ -21,6 +21,26 @@ namespace Expenses.Core
             _passwordHasher = passwordHasher;
         }
 
+        public async Task<AuthenticatedUser> SignIn(User user)
+        {
+
+            var dbUser = await _context.Users
+                .FirstOrDefaultAsync(u => u.Username == user.Username);
+
+            if (dbUser == null || dbUser.Password == null || _passwordHasher.VerifyHashedPassword(dbUser.Password, user.Password) == PasswordVerificationResult.Failed)
+            {
+                throw new InvalidUsernamePasswordException("Invalid username or password");
+            }
+
+            return new AuthenticatedUser()
+            {
+                Username = user.Username,
+                Token = "Test token"
+            };
+
+
+        }
+
         public async Task<AuthenticatedUser> SignUp(User user)
         {
             var checkUser = await _context.Users
