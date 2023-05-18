@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NHvnTiGcIBb1DF9oQ+qHalAxVLZQDjwdA3dyCi1+GmAMf5vRjSlpCQZQ4VN/RsCZNyUgsY4uw3YGgbPj/mJVVw==",
+  "dgSpecHash": "Ee/9ogrp8ULGDzRBqfPS1QOKftTF+6NQKMiqgwcRpmADXpRt97a0VX4iX8bwhzXVIKwj6bdzPAjswU6KxKX6ZA==",
   "success": true,
   "projectFilePath": "D:\\Dpath\\ProgramCharles\\20230515Expenses\\expenses_app\\expenses.webapi\\Expenses.WebApi\\Expenses.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dges9\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "C:\\Users\\dges9\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.9\\microsoft.aspnetcore.authentication.jwtbearer.3.1.9.nupkg.sha512",
     "C:\\Users\\dges9\\.nuget\\packages\\microsoft.aspnetcore.authorization\\1.0.3\\microsoft.aspnetcore.authorization.1.0.3.nupkg.sha512",
     "C:\\Users\\dges9\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\1.0.4\\microsoft.aspnetcore.hosting.abstractions.1.0.4.nupkg.sha512",
     "C:\\Users\\dges9\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\1.0.4\\microsoft.aspnetcore.hosting.server.abstractions.1.0.4.nupkg.sha512",

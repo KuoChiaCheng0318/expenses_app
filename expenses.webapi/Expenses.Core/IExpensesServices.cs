@@ -1,4 +1,4 @@
-﻿using Expenses.DB;
+﻿using Expenses.Core.DTO;
 using System.Collections.Generic;
 
 

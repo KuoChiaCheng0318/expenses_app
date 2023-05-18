@@ -161,3 +161,4 @@ D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.W
 D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\obj\Debug\netcoreapp3.1\Expenses.WebApi.RazorTargetAssemblyInfo.cache
 D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\obj\Debug\netcoreapp3.1\Expenses.WebApi.csproj.CopyComplete
 D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\obj\Debug\netcoreapp3.1\Expenses.WebApi.genruntimeconfig.cache
+D:\Dpath\ProgramCharles\20230515Expenses\expenses_app\expenses.webapi\Expenses.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
