@@ -1,17 +1,37 @@
-import React from 'react';
-import ExpenseList from './components/ExpenseList';
-import ExpenseForm from './components/ExpenseForm';
-import { ToastContainer } from 'react-toastify';
+import { React, useEffect } from 'react';
+import HomePage from './components/HomePage';
+// import Navbar from './components/Navbar';
+import SignInPage from './components/SignInPage';
+import SignUpPage from './components/SignUpPage';
+// import StatisticsPage from './components/StatisticsPage';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+// import { userAuthenticated } from './app/authenticationSlice';
 
-const App= () => (
-  <div style={{width: '60%', margin: 'auto'}}>
-    <ToastContainer />
-    <h3>New expenses</h3>
-    <ExpenseForm />
-    <hr style={{border: '1px solid grey'}}/>
-    <h3>Your expenses</h3>
-    <ExpenseList />
-  </div>
-)
+
+
+const App= () => {
+  const { isLoggedIn } = useSelector(state => state.authenticationSlice);
+  // const dispatch = useDispatch();
+
+  // useEffect(() => {
+  //   const token = sessionStorage.getItem('token');
+  //   if (token !== undefined && token !== null) {
+  //     dispatch(userAuthenticated({ token: token }))
+  //   }
+  // }, []);
+
+  return <BrowserRouter>
+    {/* <Navbar /> */}
+    <Switch>
+      <Route exact path="/" render={() => (isLoggedIn ? <HomePage /> : <SignInPage />)} />
+      <Route path="/signup" render={() => (isLoggedIn ? <Redirect to='/' /> : <SignUpPage />)} />
+      <Route path="/signin" render={() => (isLoggedIn ? <Redirect to='/' /> : <SignInPage />)} />
+      {/* <Route path="/statistics" render={() => (isLoggedIn ? <StatisticsPage /> : <SignInPage />)} /> */}
+      <Route component={() => <h2>Page not found!</h2>} />
+    </Switch>
+  </BrowserRouter>
+
+}
 
 export default App;
